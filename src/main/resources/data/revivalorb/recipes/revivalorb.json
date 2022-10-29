@@ -1,34 +1,28 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#RC",
-    "NEN",
-    "LBV"
+    "#RB",
+    "NTN",
+    "BK#"
   ],
   "key": {
     "#": {
-      "item": "minecraft:white_candle"
+      "item": "minecraft:red_candle"
     },
     "R": {
       "item": "minecraft:rotten_flesh"
     },
-    "C": {
-      "item": "minecraft:red_candle"
+    "B": {
+      "item": "minecraft:black_candle"
     },
     "N": {
       "item": "minecraft:netherite_block"
     },
-    "E": {
-      "item": "minecraft:enchanted_golden_apple"
+    "T": {
+      "item": "minecraft:totem_of_undying"
     },
-    "L": {
-      "item": "minecraft:light_blue_candle"
-    },
-    "B": {
+    "K": {
       "item": "minecraft:bone"
-    },
-    "V": {
-      "item": "minecraft:brown_candle"
     }
   },
   "result": {
