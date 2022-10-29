@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "revivalorb",
+  "version": "${version}",
+  "name": "Revival Orb",
+  "description": "Single use Hardcore revival",
+  "authors": [
+    "SkylorBeck",
+    "CalebCrowe"
+  ],
+  "contact": {
+    "website": "www.skylorbeck.website"
+  },
+  "license": "MIT",
+  "icon": "assets/revivalorb/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "website.skylorbeck.minecraft.revivalorb.client.RevivalorbClient"
+    ],
+    "main": [
+      "website.skylorbeck.minecraft.revivalorb.Revivalorb"
+    ]
+  },
+  "mixins": [
+    "revivalorb.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}

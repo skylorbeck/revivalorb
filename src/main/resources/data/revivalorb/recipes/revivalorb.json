@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#RC",
+    "NEN",
+    "LBV"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:white_candle"
+    },
+    "R": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "C": {
+      "item": "minecraft:red_candle"
+    },
+    "N": {
+      "item": "minecraft:netherite_block"
+    },
+    "E": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "L": {
+      "item": "minecraft:light_blue_candle"
+    },
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "V": {
+      "item": "minecraft:brown_candle"
+    }
+  },
+  "result": {
+    "item": "revivalorb:revivalorb",
+    "count": 1
+  }
+}
